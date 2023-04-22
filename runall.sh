@@ -1,11 +1,11 @@
 # Run main.sh
-./main.sh
+yes | ./main.sh
 
 # Run docekr1
-./docker.sh
+yes | ./docker.sh
 
 # Run dcoekr2
-./docker2.sh
+yes | ./docker2.sh
 
 # Run bridge
-./bridge.sh
+yes | ./bridge.sh
