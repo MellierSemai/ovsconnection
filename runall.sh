@@ -5,7 +5,7 @@ yes | ./main.sh
 yes | ./docker.sh
 
 # Run dcoekr2
-yes | ./docker2.sh
+./docker2.sh
 
 # Run bridge
 yes | ./bridge.sh
