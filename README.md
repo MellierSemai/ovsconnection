@@ -7,7 +7,7 @@
   2) apt-get isntall git
   3) git clone https://github.com/MellierSemai/ovsconnection.git
   4) Зайти в завантажену папку та написати команду: chmod +x * 
-  5) ./runall.sh
+  5) sudo ./runall.sh
   6) Далі, шоб перевірити зв'язок між vrf1/vrf2 в docker1 і docker2 потрібно виконати такі дії:
     - sudo docker exec -it dc1 bash або sudo docker exec -it dc2 bash
     - ip netns exec vrf1 ping 10.10.10.2 10.10.10.4 10.10.10.5 / ip netns exec vrf2 ping 10.10.10.1 10.10.10.4 10.10.10.5 (docker1)
